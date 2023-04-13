@@ -23,4 +23,4 @@ yarn-debug.log*
 yarn-error.log*
 
 
-/src/Components/documentacion.jsx
+src/Componenets/documentacion.jsx
