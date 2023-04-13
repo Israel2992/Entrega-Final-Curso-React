@@ -1,0 +1,23 @@
+.productos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.imagen {
+    width: 12rem;
+    height: 12rem;
+}
+
+button{
+    margin: 0.5rem;
+}
+
+.descripcion{
+    font-size: 2rem;
+    font-weight: 600;
+}
+
+.cantidad{
+    font-size: 1rem;
+}
