@@ -1,11 +1,15 @@
 import React from "react";
 import ListaProductos from "./ListaProductos";
+import useFetch from "../../Utils/useFetch";
+const urlAPI = "https://fakestoreapi.com/products"
 
 
-const Main = () => {
+const Main = ({setValor}) => {
+
+  const [infoApi,loading] = useFetch(urlAPI)
 
   return (
-    <ListaProductos/>
+    <ListaProductos setValor={setValor} listProducts={infoApi} loading={loading}/>
   )
 
 };

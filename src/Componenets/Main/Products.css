@@ -2,22 +2,30 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
+    width: 20%;
+    height: 30rem;
+    margin: 1rem;
+    border: rgb(58, 58, 99) solid 0.3rem;
+}
+
+.title-Products{
+    font-weight: 900;
+    color: blue;
+}
+
+.price{
+    font-size: 1.5rem;
+    font-weight: 900;
 }
 
 .imagen {
-    width: 12rem;
-    height: 12rem;
+    width: 10rem;
+    height: 10rem;
+    margin: 0.5rem;
 }
 
 button{
     margin: 0.5rem;
 }
 
-.descripcion{
-    font-size: 2rem;
-    font-weight: 600;
-}
-
-.cantidad{
-    font-size: 1rem;
-}

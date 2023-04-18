@@ -1,5 +1,31 @@
+.header{
+    display: flex;
+    justify-content: center;
+    width: 100vw;
+    height: 10vh;
+}
+
 .title{
+    width: 90%;
+    justify-content: center;
+    text-align: center;
+    font-size: 3rem;
+    font-weight: 800;
+    color: rgb(83, 83, 83);
+}
+
+.carrito{
+    width: 10%;
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.carrito p{
+    font-size: 2.5rem;
+    margin: 1rem;
+}
+
+.logo-carrito{
+    width: 3rem;
 }

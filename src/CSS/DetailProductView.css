@@ -1,0 +1,44 @@
+.container-detail{
+    display: flex;
+    justify-content: center;
+}
+.box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 50vw;
+    margin: 2rem;
+    border: gray solid 0.3rem;
+    border-radius: 4rem;
+}
+
+.container-detail-img{
+    width: 20rem;
+    padding: 2rem;
+    border: gray solid 0.3rem;
+    border-radius: 4rem;
+}
+
+.container-detail-title{
+    font-size: 1.5rem;
+    font-weight: 900;
+    padding: 2rem;
+    text-align: justify;    
+}
+
+.container-detail-price{
+    font-size: 2rem;
+    font-weight: 500;
+    margin: 1rem;
+}
+
+
+.container-detail-category{
+    font-size: 1rem;
+    font-weight: 800;
+}
+
+.container-detail-description{
+    margin: 1rem;
+    text-align: justify;
+}
