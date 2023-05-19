@@ -1,4 +1,4 @@
-#Entrea Final Proyecto React
+# Entrea Final Proyecto React
 ## E-commerce
 
 Este proyecto se baso en la implementacion de un e-commerce para ejemplificar los conocimientos adquiridos duranre la cursada de REACT
