@@ -1,0 +1,23 @@
+.container-item-count{
+    display: flex;
+    flex-direction: row;
+    width: 10rem;
+    height: 3rem;
+    justify-content: center;
+    border: 0.2rem black solid;
+}
+
+.container-text{
+    display: flex;
+    width: 30%;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+.boton-estilo{
+    height: 1.8rem;
+    justify-content: center;
+    text-align: center;
+}

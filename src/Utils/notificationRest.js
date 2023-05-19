@@ -1,6 +1,7 @@
 
-import 'react-toastify/dist/ReactToastify.css';
 import { toast} from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
+
 
 const notificationRest = (infoProducts) => {
 
@@ -8,7 +9,7 @@ const notificationRest = (infoProducts) => {
 
    return (
     toast.error(`${title} eliminado del carrito`, {
-        position: "bottom-right",
+        position: "top-left",
         autoClose: 2000,
         hideProgressBar: true,
         closeOnClick: false,

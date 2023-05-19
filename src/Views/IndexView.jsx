@@ -3,10 +3,10 @@ import { Fragment } from "react";
 import Main from "../Componenets/Main/Main";
 
 
-const IndexView = ({setValor}) => {
+const IndexView = () => {
   return (
     <Fragment>
-      <Main setValor={setValor}/>
+      <Main />
     </Fragment>
   );
 };

@@ -1,0 +1,16 @@
+.container-login{
+    display: flex;
+    width: 100vw;
+    height: 80vh;
+    justify-content: center;
+    align-items: center;
+    background-image: url(https://fondosmil.com/fondo/9906.png);
+    background-repeat: no-repeat;
+    background-size:cover ;
+}
+
+
+
+.form-login{
+    width: 30%;
+}

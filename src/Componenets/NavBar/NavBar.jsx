@@ -31,6 +31,11 @@ const NavBar = () => {
         <div className="collapse navbar-collapse justify-content-center" id="navbarNavDropdown">
           <ListOption nameOption={infoApi}/>
         </div>
+        <NavLink to={routes.loginView}>
+          <div>
+            <p className="text-primary">Iniciar Sesion</p>
+          </div>
+        </NavLink>
       </div>
     </nav>
   );

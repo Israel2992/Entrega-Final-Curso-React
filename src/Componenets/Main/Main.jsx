@@ -4,12 +4,12 @@ import useFetch from "../../Utils/useFetch";
 const urlAPI = "https://fakestoreapi.com/products"
 
 
-const Main = ({setValor}) => {
+const Main = () => {
 
   const [infoApi,loading] = useFetch(urlAPI)
 
   return (
-    <ListaProductos setValor={setValor} listProducts={infoApi} loading={loading}/>
+    <ListaProductos listProducts={infoApi} loading={loading}/>
   )
 
 };
