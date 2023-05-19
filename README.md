@@ -1,3 +1,8 @@
+#Entrea Final Proyecto React
+## E-commerce
+
+Este proyecto se baso en la implementacion de un e-commerce para ejemplificar los conocimientos adquiridos duranre la cursada de REACT
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
