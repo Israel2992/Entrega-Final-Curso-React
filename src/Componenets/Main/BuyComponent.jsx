@@ -40,12 +40,12 @@ const BuyComponent = () => {
         <div className="container-buy-compoenent-item">
           <div className="container-buy-compoenent-item-detail">
             <h4 className="titulo-h4">Productos Selecionados</h4>
-            <ul>{carProducts.map((items) => {
-              return <li className="items">{items.title} </li>;
+            <ul>{carProducts.map((items,index) => {
+              return <li className="items" key= {index}>{items.title} </li>;
             })}</ul>
           </div>
-          <p className="text-items">Cantidad de Articulos: <p className="value">{carProducts.length}</p></p>
-          <p className="text-items">Total de Compra: <p className="value">{totalCompra.toFixed(2)}</p></p>
+          <span className="text-items">Cantidad de Articulos: <p className="value">{carProducts.length}</p></span>
+          <span className="text-items">Total de Compra: <p className="value">{totalCompra.toFixed(2)}</p></span>
           <button onClick={botonComprar} className="boton-comprar btn btn-dark">Comprar</button>
         </div>
       </div>
